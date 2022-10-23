@@ -1,0 +1,242 @@
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+/*estilos header*/
+header {
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    z-index: 1;
+}
+/*estilos nav*/
+.navbar-brand img {
+    width: 200px;
+}
+/*estilos main*/
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #03045E;
+}
+.main-img {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgba(253,240,224,0.2) 47%, rgba(33,70,199,0.8) 91%),url(images/otras-img/gaston-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main-titular {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.main-titular h1 {
+    font-size: 50px;
+    color: #fff;
+}
+.divisor {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 5px;
+    opacity: 1;
+    border: #fff;
+}
+.main-titular h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.main-titular .btn-primary {
+    background-color: #FF731D;
+    border-color: #FF731D;
+}
+.btn-primary:hover {
+    background-color: #fc9758;
+}
+/*estilos section generales*/
+.section-index {
+    width: 100%;
+    min-height: 80vh;
+}
+
+/*estilos nosotros*/
+.container-nosotros {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #FF731D;
+    display:flex;
+    justify-content: center;
+}
+.nosotros-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    min-height: 80vh;
+    padding: 20px;
+}
+.nosotros-texto h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+.nosotros-texto p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+.btn-secondary {
+    background-color: #2146C7;
+    border-color: #2146C7;
+}
+.btn-secondary:hover {
+    background-color: #03045E;
+}
+/*estilos servicios*/
+.container-servicios {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.container-cards {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px;
+}
+.container-servicios h2 {
+    color: #2146C7;
+}
+.container-servicios .divisor {
+    background-color: #2146C7;
+    border: #2146C7;
+}
+.card-img-top {
+    width: 80px;
+    align-self: center;
+    margin-top: 15px;
+}
+.card-title {
+    color: #FF731D;
+}
+/*estilos noticias*/
+.container-noticias {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #03045E;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.container-noticias h2 {
+    color: #fff;
+}
+
+/*estilos redes*/
+.container-redes {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #fff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.container-redes h2 {
+    color: #2146C7;
+}
+.container-redes .divisor {
+    background-color: #2146C7;
+    border: #2146C7;
+}
+.container-feed-redes {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 25px;
+}
+/*estilos footer*/
+.footer {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #03045E;
+}
+.container-contacto {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container-contacto h4 {
+    color: #FF731D;
+    margin-top: 10px;
+}
+.container-contacto .divisor {
+    background-color: #FF731D;
+}
+.container-contacto-info {
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+.contacto-info {
+    width: 40%;
+    color: #fff;
+}
+.contacto-info img{
+    width: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.contacto-info a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.contacto-info h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.container-footer-redes img {
+    width: 40px;
+    margin: 10px;
+}
+.container-footer-redes {
+    margin-top: 20px;  
+}
+.container-footer-redes h5 {
+    color: #fff;
+    text-align: center;
+}
+.footer h6 {
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+}
