@@ -67,7 +67,7 @@ main {
 .container-nosotros {
     width: 100%;
     min-height: 80vh;
-    background-color: #FF731D;
+    background-color: #03045E;
     display:flex;
     justify-content: center;
 }
@@ -93,8 +93,9 @@ main {
     letter-spacing: 2px;
     padding: 20px;
 }
-.nosotros-texto p:nth-child(3) {
-    font-size: 20px;
+.nosotros-texto p:nth-child(4) {
+    font-size: 22px;
+    font-weight: bold;
 }
 /*estilos servicios*/
 .container-servicios {
