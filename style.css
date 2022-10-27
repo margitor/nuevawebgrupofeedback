@@ -56,13 +56,6 @@ main {
     font-size: 25px;
     margin-bottom: 20px;
 }
-.main-titular .btn-primary {
-    background-color: #FF731D;
-    border-color: #FF731D;
-}
-.btn-primary:hover {
-    background-color: #fc9758;
-}
 
 /*estilos section generales*/
 .section-index {
@@ -100,12 +93,8 @@ main {
     letter-spacing: 2px;
     padding: 20px;
 }
-.btn-secondary {
-    background-color: #2146C7;
-    border-color: #2146C7;
-}
-.btn-secondary:hover {
-    background-color: #03045E;
+.nosotros-texto p:nth-child(3) {
+    font-size: 20px;
 }
 /*estilos servicios*/
 .container-servicios {
