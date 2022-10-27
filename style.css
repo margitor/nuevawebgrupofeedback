@@ -251,4 +251,7 @@ main {
         letter-spacing: 1px;
         padding: 10px;
     }
+    .nosotros-texto p:nth-child(4) {
+        font-size: 18px;
+    }
 }
