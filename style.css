@@ -233,6 +233,53 @@ main {
     margin-top: 20px;
     text-align: center;
 }
+
+/*estilos 20 años*/
+
+.section-20anos {
+    width: 100%;
+    min-height: 90vh;
+    
+}
+.container-confiaron {
+width: 100%;
+min-height: 80vh;
+padding-top: 80px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.container-confiaron h2 {
+    font-size: 25px;
+    color: #2146C7;
+}
+.container-confiaron .divisor {
+    background-color: #2146C7;
+    border-color: #2146C7;
+}
+.container-confiaron h3 {
+    font-size: 16px;
+    color: #FF731D;
+}
+
+.container-logos {
+    width: 90%;
+    height: fit-content;
+}
+.logos img {
+    width: 140px;
+    height: fit-content;
+    filter: grayscale(1);
+}
+.logos {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
 @media screen and (max-width: 920px) {
     .container-contacto-info {
         flex-direction: column;
